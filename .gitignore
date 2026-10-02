@@ -1,0 +1,32 @@
+# Large / generated files
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+build/
+out/
+dist/
+
+# RK3576 generated files
+*.img
+*.bin
+*.elf
+*.map
+
+# IDE
+.vscode/
