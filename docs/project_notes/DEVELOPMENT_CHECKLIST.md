@@ -15,17 +15,17 @@
 - [x] RKDevTool 설치
 - [x] RK USB Driver 설치
 - [x] RKDevTool에서 LOADER Device 인식
-- [ ] 보드 전원 및 USB 연결 확인
-- [ ] HDMI 모니터 연결
+- [x] 보드 전원 및 USB 연결 확인
+- [~] HDMI 모니터 연결
 - [ ] 기본 Firmware 다운로드
-- [ ] 보드 정상 부팅 확인
-- [ ] ADB 연결 확인
+- [x] 보드 정상 부팅 확인
+- [x] ADB 연결 확인
 - [ ] Serial Console 연결
 - [ ] SSH 연결 확인
 
 ## 2. RK3576 Linux / SDK
 
-- [ ] RK3576 SDK 압축 해제 및 구조 확인
+- [x] RK3576 SDK 압축 해제 및 구조 확인
 - [ ] Cross Compiler 설치
 - [ ] Cross Compiler 동작 확인
 - [ ] Kernel 소스 확인

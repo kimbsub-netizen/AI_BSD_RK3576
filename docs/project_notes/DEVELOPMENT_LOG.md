@@ -59,3 +59,13 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 - Git Push 성공 확인 (Commit: 413c9ee)
 - GCM 임시 파일 `gcm-diagnose.log`, `gcm-linux-x64-2.9.1.deb` 삭제
 - `git status --short` 출력 없음 확인
+
+## 2026-10-06 - RK3576 SDK 압축 해제 및 구조 확인
+
+- `~/rockchip/Rk3576` SDK 디렉터리 존재 확인
+- RK3576 SDK 주요 디렉터리 및 파일 구조 확인
+- 확인 항목: `kernel-6.1`, `buildroot`, `debian`, `device`, `external`, `u-boot`, `rkbin`, `tools`, `ubuntu22.04`, `rtos`
+- `DEVELOPMENT_CHECKLIST.md` 28번 완료 처리
+
+- Git Commit: 미실행
+- 다음 작업: Cross Compiler 설치 및 동작 확인
