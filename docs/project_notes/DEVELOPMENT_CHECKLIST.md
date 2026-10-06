@@ -45,11 +45,11 @@
 - [x] RKNN Model Zoo 확인
 - [x] RKNN 샘플 Build
 - [x] YOLO 샘플 Build
-- [ ] YOLO 모델 준비
-- [ ] ONNX → RKNN 변환
-- [ ] RK3576 NPU에서 YOLO 실행
-- [ ] NPU 실행 결과 확인
-- [ ] FPS 측정
+- [x] YOLO 모델 준비
+- [x] ONNX → RKNN 변환
+- [x] RK3576 NPU에서 YOLO 실행
+- [x] NPU 실행 결과 확인
+- [x] FPS 측정 — YOLO11n INT8, 640×640 반복 이미지 처리 약 37.67 FPS (카메라 입력·화면 출력 제외)
 
 ## 4. Camera
 

@@ -1,4 +1,7 @@
 # Large / generated files
+.yolo11_run/
+*.rknn
+*.onnx
 *.zip
 *.tar
 *.tar.gz
