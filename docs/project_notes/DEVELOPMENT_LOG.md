@@ -142,3 +142,18 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 
 - Git Commit: 미실행
 - 다음 작업: RootFS Build 테스트
+
+## 2026-10-06 - RootFS 빌드 시도 및 RKNN/NPU 개발 우선 전환
+
+- `./build.sh help`에서 RootFS 빌드 옵션 확인 후 `./build.sh rootfs` 실행
+- SDK 안내에 따라 live-build 소스를 내려받아 설치하고 `lb --version` 출력 `20230131` 확인
+- 의존 패키지 설치: `debootstrap`, `qemu-user-static`, `binfmt-support`, `bzip2`
+- binfmt 등록 중 읽기 전용 파일 시스템 경고 발생; 빌드 영향 여부는 미확인
+- USTC 미러의 Bookworm Release 주소에서 HTTP/HTTPS 모두 `403 Forbidden` 확인
+- `https://deb.debian.org/debian/dists/bookworm/Release`에서 `200 OK` 확인
+- `debian/ubuntu-build-service/bookworm-desktop-arm64/configure`의 미러 주소 5곳을 `https://deb.debian.org`로 변경; 원본은 `.bak`으로 백업
+- 미러 변경 후 RootFS 빌드를 다시 실행했으나 최종 결과는 아직 확인하지 않음
+- 사용자 결정: 기존 보드 OS를 사용하여 3번 RKNN/NPU 개발을 우선 진행
+- 2번의 미완료 항목인 RootFS Build 테스트, Firmware/Image Build 테스트, Build 결과 확인, 보드 Flash 테스트를 보류로 표시
+- 기존 완료 항목은 유지; RootFS 빌드 성공으로 처리하지 않음
+- 다음 작업: RKNN 환경 확인

@@ -33,10 +33,10 @@
 - [x] Debian 환경 확인
 - [x] SDK Build 환경 구성
 - [x] Kernel Build 테스트
-- [ ] RootFS Build 테스트
-- [ ] Firmware/Image Build 테스트
-- [ ] Build 결과 확인
-- [ ] 보드 Flash 테스트
+- [ ] RootFS Build 테스트 — 보류 (기존 보드 OS로 RKNN/NPU 개발 우선)
+- [ ] Firmware/Image Build 테스트 — 보류 (기존 보드 OS로 RKNN/NPU 개발 우선)
+- [ ] Build 결과 확인 — 보류 (기존 보드 OS로 RKNN/NPU 개발 우선)
+- [ ] 보드 Flash 테스트 — 보류 (기존 보드 OS로 RKNN/NPU 개발 우선)
 
 ## 3. RKNN / NPU
 
