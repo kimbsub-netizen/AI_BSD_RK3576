@@ -43,7 +43,7 @@
 - [x] RKNN 환경 확인
 - [x] RKNPU2 확인
 - [x] RKNN Model Zoo 확인
-- [ ] RKNN 샘플 Build
+- [x] RKNN 샘플 Build
 - [ ] YOLO 샘플 Build
 - [ ] YOLO 모델 준비
 - [ ] ONNX → RKNN 변환

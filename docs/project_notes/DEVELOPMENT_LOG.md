@@ -183,3 +183,13 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 - README의 객체 검출 목록에서 YOLO11 및 FP16/INT8 형식 기재 확인
 - `DEVELOPMENT_CHECKLIST.md`의 `RKNN Model Zoo 확인` 완료 처리
 - 다음 작업: RKNN 샘플 Build
+
+## 2026-10-07 - RKNN MobileNet 샘플 Build
+
+- RKNN Model Zoo의 `build-linux.sh`로 RK3576 / AArch64 대상 MobileNet 데모 빌드
+- Arm GNU Toolchain 12.2.1을 사용해 `rknn_mobilenet_demo` 빌드 및 설치 성공
+- 생성 파일을 `file` 명령으로 확인: ARM aarch64 ELF 64-bit 실행 파일
+- `image_drawing.c` 및 `image_utils.c`에서 컴파일 경고가 있었으나 빌드는 완료됨
+- 설치된 `model/` 폴더에 `.rknn` 모델은 없어 아직 보드 실행은 하지 않음
+- `DEVELOPMENT_CHECKLIST.md`의 `RKNN 샘플 Build` 완료 처리
+- 다음 작업: YOLO 샘플 Build
