@@ -81,3 +81,14 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 
 - Git Commit: 미실행
 - 다음 작업: Kernel 소스 확인
+
+## 2026-10-06 - Kernel 소스 확인
+
+- `~/rockchip/Rk3576/kernel` 심볼릭 링크가 `kernel-6.1`을 가리키는 것을 확인
+- `~/rockchip/Rk3576/kernel-6.1` 디렉터리 존재 확인
+- Linux Kernel 소스의 `Makefile` 및 `Kconfig` 존재 확인
+- Kernel 소스 구조 정상 확인
+- `DEVELOPMENT_CHECKLIST.md` 31번 완료 처리
+
+- Git Commit: 미실행
+- 다음 작업: Buildroot 환경 확인

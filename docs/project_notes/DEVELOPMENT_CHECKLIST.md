@@ -28,7 +28,7 @@
 - [x] RK3576 SDK 압축 해제 및 구조 확인
 - [x] Cross Compiler 설치
 - [x] Cross Compiler 동작 확인
-- [ ] Kernel 소스 확인
+- [x] Kernel 소스 확인
 - [ ] Buildroot 환경 확인
 - [ ] Debian 환경 확인
 - [ ] SDK Build 환경 구성
