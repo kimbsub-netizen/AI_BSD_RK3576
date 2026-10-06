@@ -175,3 +175,11 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 - 실제 NPU 추론 실행은 아직 확인하지 않음
 - `DEVELOPMENT_CHECKLIST.md`의 `RKNPU2 확인` 완료 처리
 - 다음 작업: RKNN Model Zoo 확인
+
+## 2026-10-06 - RKNN Model Zoo 확인
+
+- `~/rockchip/rknn_model_zoo` 저장소에 README, LICENSE, `examples` 디렉터리 존재 확인
+- README에서 지원 플랫폼 목록에 RK3576 기재 확인
+- README의 객체 검출 목록에서 YOLO11 및 FP16/INT8 형식 기재 확인
+- `DEVELOPMENT_CHECKLIST.md`의 `RKNN Model Zoo 확인` 완료 처리
+- 다음 작업: RKNN 샘플 Build
