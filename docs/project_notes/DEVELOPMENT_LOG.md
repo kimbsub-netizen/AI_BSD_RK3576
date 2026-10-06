@@ -69,3 +69,15 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 
 - Git Commit: 미실행
 - 다음 작업: Cross Compiler 설치 및 동작 확인
+
+## 2026-10-06 - Cross Compiler 설치 및 동작 확인
+
+- Cross Compiler 설치 경로 확인
+- `aarch64-none-linux-gnu-gcc` 실행 파일 존재 확인
+- Arm GNU Toolchain 12.2.Rel1 확인
+- GCC 버전 `12.2.1` 확인
+- Cross Compiler 정상 동작 확인
+- `DEVELOPMENT_CHECKLIST.md` 29번, 30번 완료 처리
+
+- Git Commit: 미실행
+- 다음 작업: Kernel 소스 확인
