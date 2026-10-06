@@ -103,3 +103,15 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 
 - Git Commit: 미실행
 - 다음 작업: Debian 환경 확인
+
+## 2026-10-06 - Debian 환경 확인
+
+- `~/rockchip/Rk3576/debian` 디렉터리 존재 확인
+- Debian 빌드 스크립트 존재 확인
+- `mk-rootfs.sh`, `mk-rootfs-bookworm.sh`, `mk-base-debian.sh`, `mk-image.sh` 확인
+- `readme.md`에서 Debian Bookworm 및 `arm64` 환경 지원 확인
+- 실제 RootFS 빌드는 수행하지 않음
+- `DEVELOPMENT_CHECKLIST.md` 33번 완료 처리
+
+- Git Commit: 미실행
+- 다음 작업: SDK Build 환경 구성
