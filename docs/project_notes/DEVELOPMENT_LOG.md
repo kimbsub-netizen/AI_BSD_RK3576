@@ -165,3 +165,13 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 - `/sys/module/rknpu` 커널 모듈 경로 존재 확인
 - `DEVELOPMENT_CHECKLIST.md`의 `RKNN 환경 확인` 완료 처리
 - 다음 작업: RKNPU2 확인
+
+## 2026-10-06 - RKNPU2 드라이버 확인
+
+- 보드 `dmesg`에서 RKNPU 드라이버 `0.9.8` 초기화 로그 확인
+- IOMMU 사용 및 성능 도메인 생성 로그 확인
+- `/dev/dri`에서 `card0`, `card1`, `renderD128`, `renderD129` 장치 노드 확인
+- 초기화 로그에 메모리 영역 요청 관련 경고가 있었으나 RKNPU 초기화 로그도 확인됨
+- 실제 NPU 추론 실행은 아직 확인하지 않음
+- `DEVELOPMENT_CHECKLIST.md`의 `RKNPU2 확인` 완료 처리
+- 다음 작업: RKNN Model Zoo 확인
