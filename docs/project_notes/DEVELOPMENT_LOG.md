@@ -127,3 +127,18 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 
 - Git Commit: 미실행
 - 다음 작업: Kernel Build 테스트
+
+## 2026-10-06 - Kernel Build 테스트
+
+- 실제 RK3576 보드의 `/proc/device-tree/model`에서 `Rockchip RK3576 QiYang Board` 확인
+- `rockchip_rk3576_qiyang_defconfig` 적용
+- Kernel 6.1 / ARM64 / `rk3576-qiyang.dts` 구성으로 빌드
+- 빌드 의존 패키지 보완: `bison`, `flex`, `lz4`, `python-is-python3`, `libssl-dev`, `libgmp-dev`, `libmpc-dev`, `libmpfr-dev`, `libncurses-dev`, `device-tree-compiler`
+- `./build.sh kernel` 최종 성공
+- Kernel `Image` 약 41MB 생성 확인
+- `rk3576-qiyang.dtb` 약 288KB 생성 확인
+- `output/firmware/boot.img` 생성 확인
+- `DEVELOPMENT_CHECKLIST.md` 35번 완료 처리
+
+- Git Commit: 미실행
+- 다음 작업: RootFS Build 테스트

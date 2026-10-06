@@ -32,7 +32,7 @@
 - [x] Buildroot 환경 확인
 - [x] Debian 환경 확인
 - [x] SDK Build 환경 구성
-- [ ] Kernel Build 테스트
+- [x] Kernel Build 테스트
 - [ ] RootFS Build 테스트
 - [ ] Firmware/Image Build 테스트
 - [ ] Build 결과 확인
