@@ -193,3 +193,24 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 - 설치된 `model/` 폴더에 `.rknn` 모델은 없어 아직 보드 실행은 하지 않음
 - `DEVELOPMENT_CHECKLIST.md`의 `RKNN 샘플 Build` 완료 처리
 - 다음 작업: YOLO 샘플 Build
+
+## 2026-10-07 - YOLO11 샘플 Build
+
+- 실행 전 `install/rk3576_linux_aarch64`는 존재하고 `rknn_yolo11_demo` 출력 폴더는 없음을 확인
+- `build-linux.sh`의 삭제 대상이 해당 데모 설치 폴더임을 확인
+- 직접 실행 시 `Permission denied` 발생; 권한 변경 없이 `bash`로 실행하여 해결
+- 실행 명령 (Model Zoo 루트에서):
+
+```bash
+GCC_COMPILER=/home/kim/rockchip/arm-gnu-toolchain-12.2.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu bash ./build-linux.sh -t rk3576 -a aarch64 -d yolo11
+```
+
+- Arm GNU Toolchain 12.2.1 / Release 설정으로 빌드 및 설치 성공 (종료 코드 0)
+- `file`로 일반 및 zero-copy 데모 모두 ARM aarch64 ELF 64-bit 실행 파일임을 확인
+- 출력 경로: `~/rockchip/rknn_model_zoo/install/rk3576_linux_aarch64/rknn_yolo11_demo`
+- `image_drawing.c`, `image_utils.c`, `postprocess.cc`에 컴파일 경고 발생; 빌드 완료와 구분하여 기록
+- 설치된 `model/yolo11.rknn` 존재 확인; 모델 출처, 변환 설정 및 RK3576 호환성은 아직 미확인
+- ONNX → RKNN 변환, 보드 추론 및 FPS 측정은 수행하지 않음
+- 체크리스트의 `YOLO 샘플 Build`만 완료 처리
+- SDK, 모델 및 빌드 산출물은 프로젝트 Git에 추가하지 않음
+- 다음 작업: 기존 YOLO11 모델과 변환 환경 확인

@@ -44,7 +44,7 @@
 - [x] RKNPU2 확인
 - [x] RKNN Model Zoo 확인
 - [x] RKNN 샘플 Build
-- [ ] YOLO 샘플 Build
+- [x] YOLO 샘플 Build
 - [ ] YOLO 모델 준비
 - [ ] ONNX → RKNN 변환
 - [ ] RK3576 NPU에서 YOLO 실행
