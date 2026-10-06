@@ -31,7 +31,7 @@
 - [x] Kernel 소스 확인
 - [x] Buildroot 환경 확인
 - [x] Debian 환경 확인
-- [ ] SDK Build 환경 구성
+- [x] SDK Build 환경 구성
 - [ ] Kernel Build 테스트
 - [ ] RootFS Build 테스트
 - [ ] Firmware/Image Build 테스트

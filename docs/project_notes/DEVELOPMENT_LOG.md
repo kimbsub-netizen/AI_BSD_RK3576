@@ -115,3 +115,15 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 
 - Git Commit: 미실행
 - 다음 작업: SDK Build 환경 구성
+
+## 2026-10-06 - SDK Build 환경 구성
+
+- SDK `build.sh` 및 실제 빌드 스크립트 확인
+- `check-sdk.sh` 존재 및 실행 권한 확인
+- SDK 검사에서 `g++` 미설치 확인
+- Ubuntu 22.04 WSL 환경에 `g++` 설치
+- `check-sdk.sh` 재실행 결과 오류 없이 종료되어 SDK 환경 검사 통과
+- `DEVELOPMENT_CHECKLIST.md` 34번 완료 처리
+
+- Git Commit: 미실행
+- 다음 작업: Kernel Build 테스트
