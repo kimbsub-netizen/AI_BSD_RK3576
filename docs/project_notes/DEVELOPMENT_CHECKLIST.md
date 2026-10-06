@@ -40,7 +40,7 @@
 
 ## 3. RKNN / NPU
 
-- [ ] RKNN 환경 확인
+- [x] RKNN 환경 확인
 - [ ] RKNPU2 확인
 - [ ] RKNN Model Zoo 확인
 - [ ] RKNN 샘플 Build

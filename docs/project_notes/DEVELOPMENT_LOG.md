@@ -157,3 +157,11 @@ docs/project_notes/DEVELOPMENT_CHECKLIST.md
 - 2번의 미완료 항목인 RootFS Build 테스트, Firmware/Image Build 테스트, Build 결과 확인, 보드 Flash 테스트를 보류로 표시
 - 기존 완료 항목은 유지; RootFS 빌드 성공으로 처리하지 않음
 - 다음 작업: RKNN 환경 확인
+
+## 2026-10-06 - RKNN 환경 확인
+
+- ADB를 통해 RK3576 보드에서 `/usr/lib/librknnrt.so` 존재 확인
+- `/usr/bin/rknn_server` 존재 확인
+- `/sys/module/rknpu` 커널 모듈 경로 존재 확인
+- `DEVELOPMENT_CHECKLIST.md`의 `RKNN 환경 확인` 완료 처리
+- 다음 작업: RKNPU2 확인
